@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G마켓 사업자클럽+ — 카페 사장님 딥그린 포털</title>
+<meta name="description" content="카페 사장님을 위한 필수품 세트 5% 할인, 스타배송 도착예측, 사장님 talk 커뮤니티.">
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  :root{--green-950:#022c22;--green-900:#064e3b;--green-800:#065f46;--amber:#fbbf24}
+  body{background:var(--green-950);color:#ecfdf5}
+  .card{border-radius:1rem;border:1px solid rgb(6 95 70);background:rgb(6 78 59 / 0.45)}
+  .chip{font-size:.75rem;padding:.25rem .5rem;border-radius:.5rem;background:rgb(6 95 70);color:#cce7df}
+  .btn{border-radius:.75rem;padding:.75rem 1rem;display:inline-flex;align-items:center;gap:.5rem}
+  .btn-primary{background:var(--amber);color:var(--green-950);font-weight:700}
+  .btn-outline{border:1px solid rgb(6 95 70);color:#ecfdf5}
+  a { text-underline-offset: 2px; }
+  .grid-auto{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+  summary{cursor:pointer}
+</style>
+</head>
+<body>
+<header class="sticky top-0 z-40 backdrop-blur bg-emerald-900/80 border-b border-emerald-800">
+  <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+    <a href="#top" class="font-extrabold text-lg tracking-tight">사업자클럽<span class="text-amber-300">+</span></a>
+    <nav class="hidden md:flex items-center gap-6 text-sm text-emerald-100">
+      <a href="#bundle" class="hover:text-amber-300">카페 세트 5%↓</a>
+      <a href="#delivery" class="hover:text-amber-300">스타배송</a>
+      <a href="#community" class="hover:text-amber-300">사장님 talk</a>
+      <a href="#faq" class="hover:text-amber-300">FAQ</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="#join" class="hidden md:inline-flex btn btn-outline">로그인</a>
+      <a href="#bundle" class="btn btn-primary">무료로 시작하기</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="mx-auto max-w-7xl px-4 pt-12 pb-8">
+      <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+        🤝🦸🌍🛒 사장님의 사업장, <span class="text-amber-300">사업자클럽+</span>로 G켜요
+      </h1>
+      <p class="mt-4 text-emerald-100/90 md:text-lg">카페 필수품 세트 정기배송(5%↓) · 스타배송 도착예측 · 사장님 talk</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#bundle" class="btn btn-primary">카페 세트 보러가기</a>
+        <a href="#community" class="btn btn-outline">사장님 talk</a>
+        <a href="#hot-info" class="btn btn-outline">HOT & 정보 게시판</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAR DELIVERY -->
+  <section id="delivery" class="py-10 bg-emerald-900/30">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-6 items-start">
+      <div class="card p-6">
+        <div class="text-sm text-emerald-100">스타배송 도착예측</div>
+        <div class="mt-2 text-2xl font-extrabold">지금 사면 <span class="text-amber-300">85% 확률</span>로 9/2(화) 도착</div>
+        <p class="mt-2 text-emerald-100/90">과거 배송 데이터×지역·업종 신호를 반영한 예측 값입니다. 실제 결제 단계에서 실시간 갱신됩니다.</p>
+      </div>
+      <div class="card p-6">
+        <div class="text-sm font-semibold">카페 소모품 인기 품목</div>
+        <ul class="mt-3 space-y-2 text-sm text-emerald-100">
+          <li class="flex items-center justify-between gap-2">
+            <a class="truncate hover:underline" target="_blank" rel="noopener" href="https://m.gmarket.co.kr/vi/product/4301535995">일회용 아이스컵 16oz 1000개 (92파이)</a>
+            <a class="btn btn-primary text-xs" target="_blank" rel="noopener" href="https://m.gmarket.co.kr/vi/product/4301535995">지금 담기</a>
+          </li>
+          <li class="flex items-center justify-between gap-2">
+            <a class="truncate hover:underline" target="_blank" rel="noopener" href="https://m.gmarket.co.kr/n/search?keyword=%EB%B9%A8%EB%8C%80%201000%EA%B0%9C">검은 빨대 벌크 1000개 (검색)</a>
+            <a class="btn btn-primary text-xs" target="_blank" rel="noopener" href="https://m.gmarket.co.kr/n/search?keyword=%EB%B9%A8%EB%8C%80%201000%EA%B0%9C">지금 담기</a>
+          </li>
+          <li class="flex items-center justify-between gap-2">
+            <a class="truncate hover:underline" target="_blank" rel="noopener" href="https://item.gmarket.co.kr/Item?goodscode=4264039433">브라운/화이트 냅킨 5000매</a>
+            <a class="btn btn-primary text-xs" target="_blank" rel="noopener" href="https://item.gmarket.co.kr/Item?goodscode=4264039433">지금 담기</a>
+          </li>
+        </ul>
+        <p class="mt-3 text-xs text-emerald-200">※ 실제 SKU 연결 시 이미지·가격·도착예측이 자동 표시됩니다. 85%·9/2는 예시.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUNDLE 5% -->
+  <section id="bundle" class="py-10">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="md:flex items-end justify-between gap-6">
+        <div>
+          <h2 class="text-2xl md:text-4xl font-extrabold">카페 필수품 세트 <span class="text-amber-300">5% 할인</span></h2>
+          <p class="mt-2 text-emerald-100/90">플라스틱컵·빨대·냅킨을 <b>묶음 구매</b>로 더 저렴하게. 정기배송으로 재고 걱정 끝.</p>
+        </div>
+        <a href="#bundle-items" class="btn btn-primary mt-4 md:mt-0">세트 담기</a>
+      </div>
+
+      <div id="bundle-items" class="mt-6 grid-auto">
+        <article class="card p-5">
+          <div class="flex items-start justify-between">
+            <div><div class="font-semibold">플라스틱컵 믹스팩</div><div class="text-sm text-emerald-200">16/22/24oz 3종</div></div>
+            <span class="chip" style="background:var(--amber);color:var(--green-950);font-weight:700">5%↓</span>
+          </div>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold" style="color:var(--amber)">₩19,900</div>
+            <div class="text-xs text-emerald-200">스타배송 9/2 도착 85%</div>
+          </div>
+          <div class="mt-3 flex gap-2">
+            <a target="_blank" rel="noopener" href="https://m.gmarket.co.kr/vi/product/4301535995" class="btn btn-primary text-sm">바로 담기</a>
+            <a target="_blank" rel="noopener" href="https://m.gmarket.co.kr/vi/product/4301592350" class="btn btn-outline text-sm">뚜껑(평리드) 보러가기</a>
+          </div>
+        </article>
+
+        <article class="card p-5">
+          <div class="flex items-start justify-between">
+            <div><div class="font-semibold">검은 빨대 1000개</div><div class="text-sm text-emerald-200">개별포장/무포장 선택</div></div>
+            <span class="chip" style="background:var(--amber);color:var(--green-950);font-weight:700">5%↓</span>
+          </div>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold" style="color:var(--amber)">₩7,900</div>
+            <div class="text-xs text-emerald-200">스타배송 9/2 도착 85%</div>
+          </div>
+          <div class="mt-3 flex gap-2">
+            <a target="_blank" rel="noopener" href="https://m.gmarket.co.kr/n/search?keyword=%EA%B2%80%EC%9D%80%20%EB%B9%A8%EB%8C%80%201000%EA%B0%9C" class="btn btn-primary text-sm">지마켓에서 찾기</a>
+            <a href="#delivery" class="btn btn-outline text-sm">도착예측 보기</a>
+          </div>
+        </article>
+
+        <article class="card p-5">
+          <div class="flex items-start justify-between">
+            <div><div class="font-semibold">브라운 냅킨 5000매</div><div class="text-sm text-emerald-200">친환경 펄프</div></div>
+            <span class="chip" style="background:var(--amber);color:var(--green-950);font-weight:700">5%↓</span>
+          </div>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold" style="color:var(--amber)">₩12,900</div>
+            <div class="text-xs text-emerald-200">스타배송 9/2 도착 85%</div>
+          </div>
+          <div class="mt-3 flex gap-2">
+            <a target="_blank" rel="noopener" href="https://m.gmarket.co.kr/vi/product/3163095604" class="btn btn-primary text-sm">바로 담기</a>
+            <a target="_blank" rel="noopener" href="https://item.gmarket.co.kr/Item?goodscode=4264039433" class="btn btn-outline text-sm">화이트 옵션</a>
+          </div>
+        </article>
+      </div>
+      <p class="text-xs text-emerald-200 mt-3">※ 실제 상품/가격은 해당 판매처 기준으로 달라질 수 있습니다.</p>
+    </div>
+  </section>
+
+  <!-- KPI & POINTS -->
+  <section class="py-10 bg-emerald-900/30">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-4 gap-4">
+      <div class="card p-6 text-center"><div class="text-3xl font-extrabold text-amber-300">+23%</div><div class="mt-1 font-semibold">가입 전환율</div><div class="text-xs text-emerald-200 mt-1">큰 글씨/명확 버튼 (예시)</div></div>
+      <div class="card p-6 text-center"><div class="text-3xl font-extrabold text-amber-300">+17%</div><div class="mt-1 font-semibold">월간 재방문</div><div class="text-xs text-emerald-200 mt-1">HOT·정보 동시 노출 (예시)</div></div>
+      <div class="card p-6 text-center"><div class="text-3xl font-extrabold text-amber-300">92%</div><div class="mt-1 font-semibold">구독 유지율</div><div class="text-xs text-emerald-200 mt-1">카페 세트 5% (예시)</div></div>
+      <div class="card p-6 text-center"><div class="text-3xl font-extrabold text-amber-300">-6h/월</div><div class="mt-1 font-semibold">업무시간 절감</div><div class="text-xs text-emerald-200 mt-1">증빙 자동화 (예시)</div></div>
+    </div>
+  </section>
+
+  <!-- HOT & INFO BOARDS -->
+  <section id="hot-info" class="py-10">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="md:flex items-end justify-between">
+        <div>
+          <h2 class="text-2xl md:text-4xl font-extrabold">사장님 talk</h2>
+          <p class="mt-2 text-emerald-100/90">현실적인 푸념은 <b>HOT</b>, 노하우·자료는 <b>정보</b>. 두 보드를 동시에 보세요.</p>
+        </div>
+        <div class="flex gap-2 mt-4 md:mt-0">
+          <a href="#write" class="btn btn-outline">글 쓰기</a>
+          <a href="#hot-info" class="btn btn-primary">인기글 보기</a>
+        </div>
+      </div>
+      <div class="mt-6 grid md:grid-cols-2 gap-6" id="community">
+        <div class="card">
+          <div class="p-4 border-b border-emerald-800 flex items-center justify-between"><div class="font-semibold">🔥 HOT 게시판</div><div class="text-xs text-emerald-200">실시간 인기</div></div>
+          <ul class="divide-y divide-emerald-800">
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">오늘 얼음컵 또 떴다… 새벽배송 늦으면 점심 대란임</div><div class="flex items-center gap-2 text-xs text-emerald-200"><span class="chip">푸념</span>조회 3.4k</div></li>
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">카페 옆집이 가격 덤핑… 우리도 내려야 할까요?</div><div class="flex items-center gap-2 text-xs text-emerald-200"><span class="chip">상권</span>조회 2.9k</div></li>
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">일회용 규제 단속 떴다길래 쫄았는데 팁 공유</div><div class="flex items-center gap-2 text-xs text-emerald-200"><span class="chip">규제</span>조회 2.5k</div></li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="p-4 border-b border-emerald-800 flex items-center justify-between"><div class="font-semibold">📚 정보 게시판</div><div class="text-xs text-emerald-200">운영 꿀팁</div></div>
+          <ul class="divide-y divide-emerald-800">
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">얼음컵 용량별 원가 비교표(엑셀) 공유</div><div class="chip">자료</div></li>
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">스티커라벨 프린터 세팅 5분 컷(동영상)</div><div class="chip">장비</div></li>
+            <li class="p-4 flex items-center justify-between"><div class="truncate pr-2">스타배송 묶음 주문하면 도착예측 더 정확?</div><div class="chip">배송</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-10 bg-emerald-900/40">
+    <div class="mx-auto max-w-4xl px-4">
+      <h2 class="text-2xl md:text-4xl font-extrabold text-center">자주 묻는 질문</h2>
+      <div class="mt-8 space-y-4">
+        <details class="card p-4"><summary class="font-semibold">세트 5% 할인은 어떻게 적용되나요?</summary><p class="mt-2 text-emerald-100/90">카페 세트 상품 장바구니에 담기만 해도 자동 적용됩니다(일부 품목 제외).</p></details>
+        <details class="card p-4"><summary class="font-semibold">도착예측 확률은 믿을만한가요?</summary><p class="mt-2 text-emerald-100/90">최근 90일 배송 성과를 기준으로 계산합니다. 결제 직전에 최신 값으로 갱신됩니다.</p></details>
+        <details class="card p-4"><summary class="font-semibold">지마켓 계정이 있어야 하나요?</summary><p class="mt-2 text-emerald-100/90">네, 지마켓 앱/웹 계정으로 로그인 후 사업자 인증을 진행합니다.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="join" class="py-12 bg-emerald-900/30">
+    <div class="mx-auto max-w-3xl text-center px-4">
+      <h2 class="text-2xl md:text-4xl font-extrabold">📋 바쁜 사장님을 위한 직관형 포털</h2>
+      <p class="mt-3 text-emerald-100/90">카페 세트 5% 할인 + 스타배송 도착예측 + 커뮤니티. 다음 달 말엔 더 가벼운 결산을.</p>
+      <div class="mt-6 flex items-center justify-center gap-3">
+        <a href="#bundle" class="btn btn-primary">세트 담으러 가기</a>
+        <a href="#hot-info" class="btn btn-outline">인기글 보기</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-emerald-800 py-10 bg-emerald-900/40">
+  <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-4 gap-8 text-sm">
+    <div>
+      <div class="font-bold text-lg">사업자클럽<span class="text-amber-300">+</span></div>
+      <p class="mt-2 text-emerald-100/90">소상공인을 위한 정기배송·AI·커뮤니티 포털</p>
+    </div>
+    <div>
+      <div class="font-semibold">바로가기</div>
+      <ul class="mt-2 space-y-1 text-emerald-100/90">
+        <li><a href="#bundle" class="hover:underline">세트 정기배송</a></li>
+        <li><a href="#delivery" class="hover:underline">스타배송</a></li>
+        <li><a href="#hot-info" class="hover:underline">사장님 talk</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-semibold">리소스</div>
+      <ul class="mt-2 space-y-1 text-emerald-100/90">
+        <li><a target="_blank" rel="noopener" href="https://member2.gmarket.co.kr/TermsPolicy/SellerTermsPolicy" class="hover:underline">판매회원 약관</a></li>
+        <li><a target="_blank" rel="noopener" href="https://member2.gmarket.co.kr/CustomerCenter/NoticeMain" class="hover:underline">공지사항</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-semibold">문의</div>
+      <ul class="mt-2 space-y-1 text-emerald-100/90">
+        <li><a href="mailto:bizclub@gmarket.co.kr" class="hover:underline">bizclub@gmarket.co.kr</a></li>
+        <li><a href="tel:+8215881234" class="hover:underline">1588-1234</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mx-auto max-w-7xl px-4 mt-8 text-xs text-emerald-200">© <span id="year"></span> Gmarket Business Club+. All rights reserved.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
